@@ -1,0 +1,104 @@
+[debug] [2022-07-25T06:56:15.862Z] ----------------------------------------------------------------------
+[debug] [2022-07-25T06:56:15.865Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-07-25T06:56:15.865Z] CLI Version:   11.3.0
+[debug] [2022-07-25T06:56:15.866Z] Platform:      darwin
+[debug] [2022-07-25T06:56:15.866Z] Node Version:  v16.14.0
+[debug] [2022-07-25T06:56:15.882Z] Time:          Mon Jul 25 2022 15:56:15 GMT+0900 (日本標準時)
+[debug] [2022-07-25T06:56:15.882Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-25T06:56:15.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-25T06:56:15.893Z] > authorizing via signed-in user (riku.ren.sou@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/uekakiuchiyuusuke/Desktop/portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-25T06:56:58.842Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-07-25T06:56:59.626Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-07-25T06:56:59.627Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fir-pj-63faf (firebasepj) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2022-07-25T06:57:02.276Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fir-pj-63faf/services/firebasedatabase.googleapis.com [none]
+[debug] [2022-07-25T06:57:03.395Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fir-pj-63faf/services/firebasedatabase.googleapis.com 200
+[debug] [2022-07-25T06:57:03.395Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fir-pj-63faf/services/firebasedatabase.googleapis.com [omitted]
+[warn] ⚠  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2022-07-25T06:57:03.396Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/fir-pj-63faf/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2022-07-25T06:57:04.623Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/fir-pj-63faf/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2022-07-25T06:57:04.623Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/fir-pj-63faf/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2022-07-25T06:57:15.679Z] ----------------------------------------------------------------------
+[debug] [2022-07-25T06:57:15.683Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-07-25T06:57:15.683Z] CLI Version:   11.3.0
+[debug] [2022-07-25T06:57:15.684Z] Platform:      darwin
+[debug] [2022-07-25T06:57:15.684Z] Node Version:  v16.14.0
+[debug] [2022-07-25T06:57:15.686Z] Time:          Mon Jul 25 2022 15:57:15 GMT+0900 (日本標準時)
+[debug] [2022-07-25T06:57:15.686Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-25T06:57:15.696Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-25T06:57:15.696Z] > authorizing via signed-in user (riku.ren.sou@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/uekakiuchiyuusuke/Desktop/portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-25T06:57:23.628Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-07-25T06:57:24.394Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-07-25T06:57:24.394Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project portfolio-95792 (Portfolio) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of public/404.html 
+[debug] [2022-07-25T06:58:30.488Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-07-25T06:58:30.617Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-07-25T06:58:30.617Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.1","browserURL":"https://www.gstatic.com/firebasejs/9.9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.1/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/uekakiuchiyuusuke/Desktop 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=749417646&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-07-25T06:58:41.034Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-07-25T06:58:41.034Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-07-25T06:58:41.358Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-07-25T06:58:41.358Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-07-25T06:58:41.373Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-07-25T06:58:41.731Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-07-25T06:58:41.732Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"appar377","id":65608509,"node_id":"MDQ6VXNlcjY1NjA4NTA5","avatar_url":"https://avatars.githubusercontent.com/u/65608509?v=4","gravatar_id":"","url":"https://api.github.com/users/appar377","html_url":"https://github.com/appar377","followers_url":"https://api.github.com/users/appar377/followers","following_url":"https://api.github.com/users/appar377/following{/other_user}","gists_url":"https://api.github.com/users/appar377/gists{/gist_id}","starred_url":"https://api.github.com/users/appar377/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/appar377/subscriptions","organizations_url":"https://api.github.com/users/appar377/orgs","repos_url":"https://api.github.com/users/appar377/repos","events_url":"https://api.github.com/users/appar377/events{/privacy}","received_events_url":"https://api.github.com/users/appar377/received_events","type":"User","site_admin":false,"name":"appar377","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":20,"public_gists":0,"followers":0,"following":0,"created_at":"2020-05-19T13:57:14Z","updated_at":"2022-07-09T08:25:57Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":16015,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as appar377 
+[info] 

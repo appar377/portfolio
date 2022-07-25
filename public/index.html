@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PortFolio</title>
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header id="top" class="header">
+    <div class="header__fixed">
+      <h2 class="header__ttl">Yusuke Uwagaichi's Portfolio</h2>
+    </div>
+
+    <div class="chath__wrapper">
+      <div class="header__img">
+        <div class="hader__bg__img">
+          <p class="chathcopy"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="header__nav sticky">
+    <ul class="header__nav__list">
+      <li class="header__nav__list__item"><a href="#top" class="link">Top</a></li>
+      <li class="header__nav__list__item"><a href="#profile" class="link">profile</a></li>
+      <li class="header__nav__list__item"><a href="#skills" class="link">skills</a></li>
+      <li class="header__nav__list__item"><a href="#works" class="link">works</a></li>
+    </ul>
+  </nav>
+
+  <main class="main">
+    <section id="profile" class="profile__section section">
+      <div class="profile__container container">
+        <div class="section__main">
+          <h2 class="profile__ttl">profile</h2>
+
+          <div class="profile__section__contents">
+            <div class="profile__left">
+              <div class="profile__img"></div>
+            </div>
+
+            <div class="profile__right">
+              <dl class="profile__dl">
+                <dt class="profile__dt">名前</dt>
+                <dd class="profile__dd">上垣内 裕介</dd>
+
+                <dt class="profile__dt">趣味</dt>
+                <dd class="profile__dd">テニス、カラオケ、コーヒー</dd>
+
+                <dt class="profile__dt">経歴</dt>
+                <dd class="profile__dd">高校卒業後、工場に勤務するが、フリーランスになるべく退職。その後、現実に打ちのめされ挫折。しかし夢を諦めきれず、スクールに入り必死に学び、とうとう力を身につけ卒業。</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile__section__bg__img"></div>
+    </section>
+
+    <section id="skills" class="skills__section section">
+      <div class="skills__section__bg__img"></div>
+
+      <div class="skills__container container">
+        <div class="section__main">
+          <h2 class="skills__ttl">skills</h2>
+
+          <div class="skills__contents">
+            <div class="skills__left">
+              <ul class="service__list">
+                <li class="service__list__item">
+                  <h3 class="service__name">コーディング</h3>
+
+                  <p class="service__content">デザインを基にサイトのコーディングを行うことができます。</p>
+                </li>
+
+                <li class="service__list__item">
+                  <h3 class="service__name">WEBアプリ制作</h3>
+
+                  <p class="service__content">MPAまたはSPAのWEBアプリ開発をすることができます。</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills__right">
+              <h3 class="can__langages__ttl">使用可能な言語</h3>
+
+              <ul class="can__langages__list">
+                <li class="can__langages__item">HTML</li>
+                <li class="can__langages__item">CSS</li>
+                <li class="can__langages__item">JavaScript
+                  <ul class="js__list">
+                    <li>vue.js</li>
+                    <li>nuxt.js</li>
+                  </ul>
+                </li>
+                <li class="can__langages__item">MySQL</li>
+                <li class="can__langages__item">PHP + Laravel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="works__section section">
+      <div class="works__container container">
+        <div class="section__main">
+          <h2 class="works__ttl">works</h2>
+        </div>
+      </div>
+
+      <div class="works__section__bg__img"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small class="copywrite">&copy; 2022 Yusuke Uwagaichi</small>
+  </footer>
+
+  <script src="/JS/index.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCGEmNdmT0nVjip-Hka3MxtC1DjL4i47us",
+      authDomain: "portfolio-95792.firebaseapp.com",
+      projectId: "portfolio-95792",
+      storageBucket: "portfolio-95792.appspot.com",
+      messagingSenderId: "426266807694",
+      appId: "1:426266807694:web:d893501be11c006b4428df",
+      measurementId: "G-E8GBCD0CLR"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
