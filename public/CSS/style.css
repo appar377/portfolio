@@ -10,6 +10,7 @@
   color: #bbbbbb;
   font-size: 22px;
   padding-left: 70px;
+  cursor: pointer;
 }
 
 .header__nav {
@@ -28,13 +29,14 @@
   background-color: #000000;
 }
 
-.header__nav__list__item {
-  
-}
-
 .header__nav__list__item .link {
   text-decoration: none;
   color: #ffffff;
+  transition: .2s;
+}
+
+.header__nav__list__item .link:hover {
+  color: #ff9999;
 }
 
 .header__nav__list__item:not(:first-of-type) {
@@ -57,6 +59,14 @@
 
 .section {
   display: flex;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.section.show {
+  opacity: 1;
+  transform: none;
+  transition: 1s;
 }
 
 .container {
@@ -76,6 +86,7 @@
 .works__ttl {
   font-size: 26px;
   padding: 15px 0;
+  color: #ffbbbb;
 }
 
 .profile__section__bg__img {
