@@ -111,7 +111,8 @@
   height: 200px;
   margin: 0 auto;
   border-radius: 50%;
-  background: url(../IMG/header.jpg);
+  background: url(../IMG/my_profile_img.jpg);
+  background-size: cover;
 }
 
 .profile__right {
