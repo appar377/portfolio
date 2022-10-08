@@ -236,6 +236,29 @@
   background-repeat: no-repeat;
 }
 
+.works__list {
+  height: 500px;
+  list-style: none;
+  overflow: scroll;
+}
+
+.works__list__item {
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.work__img {
+  width: 100%;
+}
+
+.work__img img {
+  width: 100%;
+}
+
+.work__content {
+  margin-top: 10px;
+}
+
 .footer {
   height: 30px;
   line-height: 30px;
